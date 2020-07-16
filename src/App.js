@@ -66,7 +66,7 @@ function App() {
       <div className="row">
         <div className="parallax-container">
           <div className="parallax">
-            <img className="responsive-img hero-img" src={ncdc} />
+            <img className="responsive-img hero-img" src={ncdc} alt="ncdc" />
           </div>
         </div>
       </div>
@@ -105,10 +105,10 @@ function App() {
             </p>
             <a
               href="#!"
-              class="waves-effect waves-light btn deep-purple    hoverable"
+              className="waves-effect waves-light btn deep-purple    hoverable"
             >
               Read More
-              <i class="material-icons right">send</i>
+              <i className="material-icons right">send</i>
             </a>
           </div>
         </div>
@@ -116,9 +116,9 @@ function App() {
       </div>
 
       {/* cards */}
-      <div class="row deep-purple lighten-1 section">
-        <div class="col s12 white-text">
-          <span class="card-title center-align">
+      <div className="row deep-purple lighten-1 section">
+        <div className="col s12 white-text">
+          <span className="card-title center-align">
             <h4>Our Objectives</h4>
           </span>
           <ul className="browser-default ">
