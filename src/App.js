@@ -68,71 +68,72 @@ function App() {
       </div>
       {/* hero section end */}
 
+      {/* container start */}
       <div className="container">
         {/* center moto start */}
-        <div className="row">
+        <div className="row section">
           <h3 className="center-align">
             Uplifting the rural, illiterate, poor and underprivileged people of
             Nepal with a special focus on women and children
           </h3>
         </div>
         <hr />
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
-        necessitatibus nemo soluta dolor reprehenderit deleniti asperiores
-        impedit laboriosam assumenda itaque. Explicabo fugit provident delectus,
-        tenetur voluptatum id? Voluptas consequuntur illo quas ipsa nobis
-        officia laboriosam dignissimos porro at quidem iure dolore quaerat
-        assumenda nam repellendus enim, possimus cum nulla voluptatum magnam
-        corrupti dicta quasi! Temporibus, illum ratione? Molestias quasi id
-        ipsum perferendis quibusdam expedita eos libero nulla quisquam veritatis
-        velit sequi esse harum cumque amet non, voluptas, consequuntur magnam
-        excepturi ratione officiis vitae inventore? Nobis eligendi neque
-        recusandae. Nihil numquam optio voluptate assumenda minus repellat magni
-        ratione eveniet. Modi aperiam itaque nihil dolores, suscipit pariatur,
-        vitae voluptatum accusantium voluptate aspernatur obcaecati tempora
-        omnis veritatis rem corrupti veniam quo maiores inventore at doloremque
-        dicta perspiciatis provident. Nisi odit, saepe quis placeat dignissimos
-        non hic, eius magni et consequatur voluptatibus labore voluptas libero
-        animi distinctio doloribus quidem id reprehenderit? Beatae optio quaerat
-        enim illum officia! Pariatur quo in tenetur illo quasi suscipit,
-        repellat numquam labore atque alias accusamus quae voluptates illum sed
-        enim, quam impedit, omnis quisquam explicabo minima sint. Deserunt ea
-        porro, expedita accusantium maiores doloremque, quis architecto eos
-        aspernatur hic corporis alias! Impedit ad et sed ab similique? Tenetur,
-        distinctio sequi ipsa mollitia odio dolorum alias in molestias, officia
-        earum corrupti quos maxime. Necessitatibus consectetur beatae, quibusdam
-        sed nobis iusto quasi nostrum temporibus blanditiis molestiae illo
-        corrupti quas quia at aperiam dolore nulla rem laborum rerum quae unde
-        voluptatum expedita maiores! Eum, expedita non. Assumenda, dignissimos.
-        Rem doloremque consequuntur maiores minus ex saepe dolor nam! Doloremque
-        neque eos reprehenderit vel dolorum ducimus qui ad delectus inventore
-        unde cumque modi quam aliquid deserunt ab sequi, libero quibusdam
-        repellat numquam tempora esse recusandae ipsum. Fuga molestiae sapiente
-        iusto esse rerum fugiat modi facere aspernatur repellat error, iure cum
-        quidem libero ullam necessitatibus aperiam culpa temporibus quis harum
-        quas accusamus in delectus perspiciatis? Ipsam omnis beatae sint amet
-        reprehenderit odio ad saepe debitis porro, aspernatur quasi reiciendis
-        eius qui ipsum accusamus illo, magni fuga. Adipisci earum suscipit dolor
-        quam dignissimos quae molestiae iste rem, laboriosam eos laborum ipsa
-        officiis voluptas! Dignissimos, accusamus aperiam tenetur, quia odit
-        asperiores animi eius deserunt maiores deleniti libero commodi saepe
-        provident nemo sunt labore debitis facilis ducimus ut quae fuga
-        repudiandae optio consequuntur. Quo dicta debitis sit quam laboriosam
-        beatae dignissimos iste ipsam obcaecati? Est repellendus necessitatibus
-        enim? Nobis, obcaecati a minima deleniti sint provident! Quam officiis,
-        veniam voluptates autem iste consequatur pariatur laboriosam ad qui
-        dignissimos, aspernatur, vel exercitationem enim vero itaque est odio
-        aliquid similique. In quam quibusdam voluptatem sunt tempora quisquam
-        error quod hic iste dignissimos ullam accusamus voluptate nesciunt
-        pariatur expedita quo, ex, aliquam possimus neque? Minima, consequuntur
-        nostrum quas ea adipisci, quae nesciunt, aliquid iure deserunt
-        laboriosam eius voluptate fugit porro doloremque iusto laborum ad
-        doloribus eos! Similique numquam labore natus quae ullam dolorem
-        quisquam deleniti repellendus aut quasi nemo, minus obcaecati totam non
-        minima repudiandae, tempore exercitationem. Tempora obcaecati odit
-        repellat inventore eaque et sit rerum voluptatibus adipisci dignissimos,
-        unde vero vitae!
+
+        {/* intro section start */}
+        <div className="row section">
+          <div className="col s12 m6">
+            <img
+              src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+              alt=""
+              className="responsive-img"
+            />
+          </div>
+          <div className="col s12 m6 ">
+            <blockquote className="red-text text-darken-2">
+              <h4>About Us</h4>
+            </blockquote>
+            <p>
+              Nepal Community Development Center(NCDC) is established in 1991.
+              It is also registered in Social Welfare Council. It is recognized
+              as a leading NGO in Jhapa district of Nepal. The main vision of
+              the organization is to uplift the community members through
+              conducting different community focused programs.
+            </p>
+            <a class="waves-effect waves-light btn deep-purple    hoverable">
+              Read More
+              <i class="material-icons right">send</i>
+            </a>
+          </div>
+        </div>
+        {/* intro section end */}
       </div>
+
+      {/* cards */}
+      <div class="row deep-purple lighten-1 section">
+        <div class="col s12 white-text">
+          <span class="card-title center-align">
+            <h4>Our Objectives</h4>
+          </span>
+          <ul className="browser-default ">
+            <li>
+              To assist in uplifting the social and economic development of the
+              poor and underprivileged groups of rural Nepal through its various
+              programs and activities.
+            </li>
+            <li>
+              To bring into practice the findings of research of community
+              development for the benefit of the poor and underprivileged of
+              Nepal.
+            </li>
+            <li>
+              To provide training and empowerment to assist in community
+              development of Nepal.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* container end */}
     </>
   );
 }
