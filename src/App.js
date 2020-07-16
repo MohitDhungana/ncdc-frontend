@@ -21,7 +21,11 @@ function App() {
               <a href="#!" className="brand-logo ">
                 NCDC
               </a>
-              <a href="#" data-target="mobile-demo" className="sidenav-trigger">
+              <a
+                href="#!"
+                data-target="mobile-demo"
+                className="sidenav-trigger"
+              >
                 <i className="material-icons">menu</i>
               </a>
               <ul className="right hide-on-med-and-down">
@@ -99,7 +103,10 @@ function App() {
               the organization is to uplift the community members through
               conducting different community focused programs.
             </p>
-            <a class="waves-effect waves-light btn deep-purple    hoverable">
+            <a
+              href="#!"
+              class="waves-effect waves-light btn deep-purple    hoverable"
+            >
               Read More
               <i class="material-icons right">send</i>
             </a>
