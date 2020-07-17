@@ -9,6 +9,19 @@ body {
   width: 85vw;
 }
 
+.container-padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .parallax-container {
   height: 80vh;
+}
+
+.mission-img {
+  width: 100%;
+}
+
+.btn-margin {
+  margin-bottom: 10px;
 }
