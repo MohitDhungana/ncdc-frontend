@@ -184,7 +184,7 @@ function App() {
 
       {/* other services start */}
       <div className="row section">
-        <div className="container ">
+        <div className="container center-align">
           <hr />
           <div className="row">
             <h5>
@@ -192,10 +192,10 @@ function App() {
               various trainings and other public functions
             </h5>
           </div>
-          <div className="row center-align">
+          <div className="row ">
             <a
               href="#!"
-              className="waves-effect waves-light btn deep-purple  hoverable btn-margin"
+              className="waves-effect waves-light btn deep-purple  hoverable "
             >
               Learn More
               <i className="material-icons right">send</i>
@@ -204,6 +204,54 @@ function App() {
         </div>
       </div>
       {/* other services end */}
+
+      {/* footer */}
+
+      <footer className="page-footer">
+        <div className="container">
+          <div className="row">
+            <div className="col l6 s12">
+              <h5 className="white-text">Contact US</h5>
+              <p className="grey-text text-lighten-4">
+                Nepal Community Development Center <br />
+                Bhadrapur, Jhapa, <br />
+                Nepal <br />
+                Phone: (+977) 9898989898
+              </p>
+            </div>
+            <div className="col l4 offset-l2 s12">
+              <h5 className="white-text">Links</h5>
+              <ul>
+                <li>
+                  <a className="grey-text text-lighten-3" href="#!">
+                    Link 1
+                  </a>
+                </li>
+                <li>
+                  <a className="grey-text text-lighten-3" href="#!">
+                    Link 2
+                  </a>
+                </li>
+                <li>
+                  <a className="grey-text text-lighten-3" href="#!">
+                    Link 3
+                  </a>
+                </li>
+                <li>
+                  <a className="grey-text text-lighten-3" href="#!">
+                    Link 4
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="footer-copyright">
+          <div className="container">
+            © {new Date().getFullYear()} Nepal Community Development Center
+          </div>
+        </div>
+      </footer>
     </>
   );
 }
