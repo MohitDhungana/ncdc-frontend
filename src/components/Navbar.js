@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="navbar-fixed ">
         <nav className="red darken-2">
           <div className="nav-wrapper container  ">
-            <Link to="/" className="brand-logo ">
+            <Link to="/ncdc-frontend" className="brand-logo ">
               NCDC
             </Link>
             <Link to="#!" data-target="mobile-demo" className="sidenav-trigger">
@@ -15,7 +15,7 @@ const Navbar = () => {
             </Link>
             <ul className="right hide-on-med-and-down">
               <li>
-                <Link to="/">HOME</Link>
+                <Link to="/ncdc-frontend">HOME</Link>
               </li>
               <li>
                 <Link to="/aboutus">ABOUT US</Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
       </div>
       <ul className="sidenav" id="mobile-demo">
         <li>
-          <Link to="/">HOME</Link>
+          <Link to="/ncdc-frontend">HOME</Link>
         </li>
         <li>
           <Link to="/aboutus">ABOUT US</Link>

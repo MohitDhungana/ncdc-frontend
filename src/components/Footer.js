@@ -19,7 +19,7 @@ const Footer = () => {
             <h5 className="white-text">Quick Links</h5>
             <ul>
               <li>
-                <Link className="grey-text text-lighten-3" to="/">
+                <Link className="grey-text text-lighten-3" to="/ncdc-frontend">
                   Home
                 </Link>
               </li>

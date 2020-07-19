@@ -23,7 +23,7 @@ function App() {
       <>
         <Navbar />
         <main>
-          <Route exact path="/" component={HomeContent} />
+          <Route exact path="/ncdc-frontend" component={HomeContent} />
           <Route exact path="/aboutus" component={AboutUs} />
           <Route exact path="/contactus" component={ContactUs} />
           <Route exact path="/projects" component={Projects} />
