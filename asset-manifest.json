@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/ncdc-frontend/static/css/main.567b2fbf.chunk.css",
-    "main.js": "/ncdc-frontend/static/js/main.6ad9370a.chunk.js",
-    "main.js.map": "/ncdc-frontend/static/js/main.6ad9370a.chunk.js.map",
+    "main.css": "/ncdc-frontend/static/css/main.4e7619c5.chunk.css",
+    "main.js": "/ncdc-frontend/static/js/main.9e664f47.chunk.js",
+    "main.js.map": "/ncdc-frontend/static/js/main.9e664f47.chunk.js.map",
     "runtime-main.js": "/ncdc-frontend/static/js/runtime-main.e336bbed.js",
     "runtime-main.js.map": "/ncdc-frontend/static/js/runtime-main.e336bbed.js.map",
     "static/css/2.36020323.chunk.css": "/ncdc-frontend/static/css/2.36020323.chunk.css",
-    "static/js/2.382191ba.chunk.js": "/ncdc-frontend/static/js/2.382191ba.chunk.js",
-    "static/js/2.382191ba.chunk.js.map": "/ncdc-frontend/static/js/2.382191ba.chunk.js.map",
+    "static/js/2.e6c64ec6.chunk.js": "/ncdc-frontend/static/js/2.e6c64ec6.chunk.js",
+    "static/js/2.e6c64ec6.chunk.js.map": "/ncdc-frontend/static/js/2.e6c64ec6.chunk.js.map",
     "index.html": "/ncdc-frontend/index.html",
-    "precache-manifest.528d99f28f99bf246de87095973a5335.js": "/ncdc-frontend/precache-manifest.528d99f28f99bf246de87095973a5335.js",
+    "precache-manifest.2a4497b380a9a51eb3c8a5c1162fc692.js": "/ncdc-frontend/precache-manifest.2a4497b380a9a51eb3c8a5c1162fc692.js",
     "service-worker.js": "/ncdc-frontend/service-worker.js",
     "static/css/2.36020323.chunk.css.map": "/ncdc-frontend/static/css/2.36020323.chunk.css.map",
-    "static/css/main.567b2fbf.chunk.css.map": "/ncdc-frontend/static/css/main.567b2fbf.chunk.css.map",
-    "static/js/2.382191ba.chunk.js.LICENSE.txt": "/ncdc-frontend/static/js/2.382191ba.chunk.js.LICENSE.txt",
+    "static/css/main.4e7619c5.chunk.css.map": "/ncdc-frontend/static/css/main.4e7619c5.chunk.css.map",
+    "static/js/2.e6c64ec6.chunk.js.LICENSE.txt": "/ncdc-frontend/static/js/2.e6c64ec6.chunk.js.LICENSE.txt",
+    "static/media/mani.jpg": "/ncdc-frontend/static/media/mani.d6ce79f1.jpg",
     "static/media/ncdc.jpg": "/ncdc-frontend/static/media/ncdc.6158a48a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e336bbed.js",
     "static/css/2.36020323.chunk.css",
-    "static/js/2.382191ba.chunk.js",
-    "static/css/main.567b2fbf.chunk.css",
-    "static/js/main.6ad9370a.chunk.js"
+    "static/js/2.e6c64ec6.chunk.js",
+    "static/css/main.4e7619c5.chunk.css",
+    "static/js/main.9e664f47.chunk.js"
   ]
 }
