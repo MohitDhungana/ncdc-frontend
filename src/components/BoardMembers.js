@@ -14,7 +14,7 @@ const BoardMembers = () => {
         <div class="col s6 m4 l3">
           <div class="card">
             <div class="card-image">
-              <img src={mani} />
+              <img src={mani} alt="profile-pic" />
             </div>
             <div class="card-content center-align">
               <p>
