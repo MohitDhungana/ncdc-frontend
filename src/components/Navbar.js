@@ -24,7 +24,7 @@ const Navbar = () => {
                 <Link to="/projects">NCDC PROJECTS</Link>
               </li>
               <li>
-                <Link to="/rental-service">RENTAL SERVICES</Link>
+                <Link to="/rental-services">RENTAL SERVICES</Link>
               </li>
               <li>
                 <Link to="/contactus">CONTACT US</Link>
@@ -44,7 +44,7 @@ const Navbar = () => {
           <Link to="/projects">NCDC PROJECTS</Link>
         </li>
         <li>
-          <Link to="/rental-service">RENTAL SERVICES</Link>
+          <Link to="/rental-services">RENTAL SERVICES</Link>
         </li>
         <li>
           <Link to="/contactus">CONTACT US</Link>

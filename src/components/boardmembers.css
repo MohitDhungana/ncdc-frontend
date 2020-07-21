@@ -4,18 +4,24 @@
 
 .flex-container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  padding: 15px;
 }
 
 .box-container {
-  background-color: gray;
+  background-color: #d4d4d4;
   width: 15em;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding: 1em;
   display: flex;
-  margin: 6px 15px;
+  margin: 10px 15px;
+}
+
+.box-container:hover {
+  box-shadow: 0 0 15px #888888;
 }
 
 .box-content > img {
