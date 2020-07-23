@@ -2,8 +2,8 @@ import React from 'react';
 
 const AboutUsContent = () => {
   return (
-    <div class="row section ">
-      <div class="col s12 ">
+    <div className="row section ">
+      <div className="col s12 ">
         <blockquote className="red-text text-darken-2">
           <h3>About Us</h3>
         </blockquote>
