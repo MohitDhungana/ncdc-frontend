@@ -1,37 +1,26 @@
 {
   "files": {
     "main.css": "/ncdc-frontend/static/css/main.63d240be.chunk.css",
-    "main.js": "/ncdc-frontend/static/js/main.9fe4fa11.chunk.js",
-    "main.js.map": "/ncdc-frontend/static/js/main.9fe4fa11.chunk.js.map",
+    "main.js": "/ncdc-frontend/static/js/main.e562d59d.chunk.js",
+    "main.js.map": "/ncdc-frontend/static/js/main.e562d59d.chunk.js.map",
     "runtime-main.js": "/ncdc-frontend/static/js/runtime-main.e336bbed.js",
     "runtime-main.js.map": "/ncdc-frontend/static/js/runtime-main.e336bbed.js.map",
     "static/css/2.36020323.chunk.css": "/ncdc-frontend/static/css/2.36020323.chunk.css",
-    "static/js/2.f6791670.chunk.js": "/ncdc-frontend/static/js/2.f6791670.chunk.js",
-    "static/js/2.f6791670.chunk.js.map": "/ncdc-frontend/static/js/2.f6791670.chunk.js.map",
+    "static/js/2.b737a0c8.chunk.js": "/ncdc-frontend/static/js/2.b737a0c8.chunk.js",
+    "static/js/2.b737a0c8.chunk.js.map": "/ncdc-frontend/static/js/2.b737a0c8.chunk.js.map",
     "index.html": "/ncdc-frontend/index.html",
-    "precache-manifest.32c2285df8f7630f03add01dc9db70b1.js": "/ncdc-frontend/precache-manifest.32c2285df8f7630f03add01dc9db70b1.js",
+    "precache-manifest.417e1fb2f5d20fa26214ec97e079c387.js": "/ncdc-frontend/precache-manifest.417e1fb2f5d20fa26214ec97e079c387.js",
     "service-worker.js": "/ncdc-frontend/service-worker.js",
     "static/css/2.36020323.chunk.css.map": "/ncdc-frontend/static/css/2.36020323.chunk.css.map",
     "static/css/main.63d240be.chunk.css.map": "/ncdc-frontend/static/css/main.63d240be.chunk.css.map",
-    "static/js/2.f6791670.chunk.js.LICENSE.txt": "/ncdc-frontend/static/js/2.f6791670.chunk.js.LICENSE.txt",
-    "static/media/kala_basnet.jpg": "/ncdc-frontend/static/media/kala_basnet.0fd84954.jpg",
-    "static/media/mahendra_karki.jpg": "/ncdc-frontend/static/media/mahendra_karki.f90797ad.jpg",
-    "static/media/mani.jpg": "/ncdc-frontend/static/media/mani.14e110d5.jpg",
-    "static/media/narayani_kumari_shrestha.jpg": "/ncdc-frontend/static/media/narayani_kumari_shrestha.9d08d592.jpg",
-    "static/media/navin_chandra_shrestha.jpg": "/ncdc-frontend/static/media/navin_chandra_shrestha.f776e00b.jpg",
-    "static/media/ncdc.jpg": "/ncdc-frontend/static/media/ncdc.5736eaa8.jpg",
-    "static/media/netra_prasad_pokhrel.jpg": "/ncdc-frontend/static/media/netra_prasad_pokhrel.bb4ea28c.jpg",
-    "static/media/nirmal_pyakurel.jpg": "/ncdc-frontend/static/media/nirmal_pyakurel.01da97a6.jpg",
-    "static/media/pran_krishna.jpg": "/ncdc-frontend/static/media/pran_krishna.d0a32ee5.jpg",
-    "static/media/pushpa_prasad_guragain.jpg": "/ncdc-frontend/static/media/pushpa_prasad_guragain.f76e9f0d.jpg",
-    "static/media/sushma_dahal.jpg": "/ncdc-frontend/static/media/sushma_dahal.3ffbfe5a.jpg",
-    "static/media/tej_maya.jpg": "/ncdc-frontend/static/media/tej_maya.1d1d93ba.jpg"
+    "static/js/2.b737a0c8.chunk.js.LICENSE.txt": "/ncdc-frontend/static/js/2.b737a0c8.chunk.js.LICENSE.txt",
+    "static/media/ncdc.jpg": "/ncdc-frontend/static/media/ncdc.5736eaa8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e336bbed.js",
     "static/css/2.36020323.chunk.css",
-    "static/js/2.f6791670.chunk.js",
+    "static/js/2.b737a0c8.chunk.js",
     "static/css/main.63d240be.chunk.css",
-    "static/js/main.9fe4fa11.chunk.js"
+    "static/js/main.e562d59d.chunk.js"
   ]
 }
