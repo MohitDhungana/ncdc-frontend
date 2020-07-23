@@ -12,6 +12,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomeContent from './components/HomeContent';
 import RentalServices from './pages/RentalServices';
+import * as ROUTES from './util/Routes';
 
 function App() {
   React.useEffect(() => {
@@ -21,15 +22,21 @@ function App() {
   return (
     <Router>
       <>
-        <Navbar />
+        <Navbar ROUTES={ROUTES} />
         <main>
-          <Route exact path="/ncdc-frontend" component={HomeContent} />
-          <Route exact path="/aboutus" component={AboutUs} />
-          <Route exact path="/contactus" component={ContactUs} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/rental-services" component={RentalServices} />
+          <Route exact path={ROUTES.home}>
+            <HomeContent ROUTES={ROUTES} />
+          </Route>
+          <Route exact path={ROUTES.aboutUs} component={AboutUs} />
+          <Route exact path={ROUTES.contactUs} component={ContactUs} />
+          <Route exact path={ROUTES.projects} component={Projects} />
+          <Route
+            exact
+            path={ROUTES.rentalServices}
+            component={RentalServices}
+          />
         </main>
-        <Footer />
+        <Footer ROUTES={ROUTES} />
       </>
     </Router>
   );

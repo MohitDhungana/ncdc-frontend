@@ -3,7 +3,7 @@ import ncdc from '../images/ncdc.jpg';
 import { Link } from 'react-router-dom';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
-const HomeContent = () => {
+const HomeContent = ({ ROUTES }) => {
   React.useEffect(() => {
     M.AutoInit();
   });
@@ -50,7 +50,7 @@ const HomeContent = () => {
               conducting different community focused programs.
             </p>
             <Link
-              to="/aboutus"
+              to={ROUTES.aboutUs}
               className="waves-effect waves-light btn deep-purple  hoverable"
             >
               Read More
@@ -84,7 +84,7 @@ const HomeContent = () => {
               </li>
             </ul>
             <Link
-              to="/projects"
+              to={ROUTES.projects}
               className="waves-effect waves-light btn white black-text hoverable btn-margin"
             >
               View Our Projects
@@ -140,7 +140,7 @@ const HomeContent = () => {
           </div>
           <div className="row ">
             <Link
-              to="/rental-services"
+              to={ROUTES.rentalServices}
               className="waves-effect waves-light btn deep-purple  hoverable "
             >
               Learn More

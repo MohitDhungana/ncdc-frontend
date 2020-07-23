@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Footer = () => {
+const Footer = ({ ROUTES }) => {
   return (
     <footer className="page-footer">
       <div className="container">
@@ -19,24 +19,24 @@ const Footer = () => {
             <h5 className="white-text">Quick Links</h5>
             <ul>
               <li>
-                <Link className="grey-text text-lighten-3" to="/ncdc-frontend">
+                <Link className="grey-text text-lighten-3" to={ROUTES.home}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link className="grey-text text-lighten-3" to="/aboutus">
+                <Link className="grey-text text-lighten-3" to={ROUTES.aboutUs}>
                   About Us
                 </Link>
               </li>
               <li>
-                <Link className="grey-text text-lighten-3" to="/projects">
+                <Link className="grey-text text-lighten-3" to={ROUTES.projects}>
                   Projects
                 </Link>
               </li>
               <li>
                 <Link
                   className="grey-text text-lighten-3"
-                  to="/rental-services"
+                  to={ROUTES.rentalServices}
                 >
                   Rental Services
                 </Link>

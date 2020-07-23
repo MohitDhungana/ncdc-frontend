@@ -16,7 +16,8 @@ import axios from 'axios';
 
 import Spinner from './Spinner';
 
-const ROOTURL = 'https://www.master-7rqtwti-i5k2u5rqob5is.us-3.platformsh.site';
+const ROOT_URL =
+  'https://www.master-7rqtwti-i5k2u5rqob5is.us-3.platformsh.site';
 
 const BoardMembers = () => {
   const [members, setMembers] = React.useState([]);
@@ -25,7 +26,7 @@ const BoardMembers = () => {
   React.useEffect(() => {
     setLoading(true);
     axios
-      .get(`${ROOTURL}/members`)
+      .get(`${ROOT_URL}/members`)
       .then((response) => {
         const data = response.data;
         setMembers(data);
@@ -51,7 +52,7 @@ const BoardMembers = () => {
             return (
               <div className="box-container">
                 <div className="box-content">
-                  <img src={`${ROOTURL}${url}`} alt="" className="box-img" />
+                  <img src={`${ROOT_URL}${url}`} alt="" className="box-img" />
                   <p>
                     {name} <br />
                     {designation}
