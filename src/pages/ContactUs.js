@@ -1,10 +1,12 @@
 import React from 'react';
 import GoogleMaps from '../components/GoogleMaps';
+import Contacts from '../components/Contacts';
 
 const ContactUs = () => {
   return (
-    <div className="container">
+    <div className="">
       <GoogleMaps />
+      <Contacts />
     </div>
   );
 };

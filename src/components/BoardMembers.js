@@ -25,11 +25,11 @@ const BoardMembers = ({ members }) => {
 
       <div className="flex-container">
         {members.map((member) => {
-          const { name, designation } = member;
+          const { name, designation, id } = member;
           const { url } = member.image.formats.thumbnail;
 
           return (
-            <div className="box-container">
+            <div className="box-container" key={id}>
               <div className="box-content">
                 <img src={`${ROOT_URL}${url}`} alt="" className="box-img" />
                 <p>

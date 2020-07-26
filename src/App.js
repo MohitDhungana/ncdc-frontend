@@ -1,7 +1,7 @@
 import React from 'react';
 
 import 'materialize-css/dist/css/materialize.min.css';
-import M from 'materialize-css/dist/js/materialize.min.js';
+
 import './App.css';
 
 import AboutUs from './pages/AboutUs';
@@ -23,9 +23,9 @@ const ROOT_URL =
 function App() {
   const [members, setMembers] = React.useState([]);
   const [projects, setProjects] = React.useState([]);
+  const [rentals, setRentals] = React.useState([]);
   const [loading, setLoading] = React.useState(false);
   React.useEffect(() => {
-    M.AutoInit();
     setLoading(true);
     axios
       .get(`${ROOT_URL}/members`)
@@ -39,6 +39,13 @@ function App() {
       .then((response) => {
         const data = response.data;
         setProjects(data);
+      })
+      .catch((e) => console.log(e));
+    axios
+      .get(`${ROOT_URL}/rentals`)
+      .then((response) => {
+        const data = response.data;
+        setRentals(data);
       })
       .catch((e) => console.log(e));
     setLoading(false);
@@ -64,11 +71,9 @@ function App() {
             <Route exact path={ROUTES.projects}>
               <Projects projects={projects} />
             </Route>
-            <Route
-              exact
-              path={ROUTES.rentalServices}
-              component={RentalServices}
-            />
+            <Route exact path={ROUTES.rentalServices}>
+              <RentalServices rentals={rentals} />
+            </Route>
           </main>
           <Footer ROUTES={ROUTES} />
         </>

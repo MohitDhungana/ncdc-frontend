@@ -34,3 +34,14 @@ main {
 .btn-margin {
   margin-bottom: 10px;
 }
+/* .hero-img {
+  width: 100vw;
+} */
+
+.box-margin {
+  margin-bottom: 0.5em;
+}
+
+.no-margin-bot {
+  margin-bottom: 0;
+}

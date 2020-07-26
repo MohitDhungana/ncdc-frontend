@@ -1,5 +1,5 @@
 import React from 'react';
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
+import { GoogleMap, useLoadScript } from '@react-google-maps/api';
 
 const containerStyle = {
   width: '400px',
@@ -11,33 +11,28 @@ const center = {
   lng: 88.080483,
 };
 
+const mapContainerStyle = {
+  width: '70vw',
+  height: '70vh',
+};
+
 const GoogleMaps = () => {
-  const [map, setMap] = React.useState(null);
+  const { isLoaded, loadError } = useLoadScript({
+    googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY,
+  });
 
-  const onLoad = React.useCallback(function callback(map) {
-    const bounds = new window.google.maps.LatLngBounds();
-    map.fitBounds(bounds);
-    setMap(map);
-  }, []);
-
-  const onUnmount = React.useCallback(function callback(map) {
-    setMap(null);
-  }, []);
+  if (loadError) return 'error loading maps';
+  if (!isLoaded) return 'loading maps';
 
   return (
-    <div className="center-align">
-      <LoadScript googleMapsApiKey="AIzaSyBabi60Fd1DJuvXEoj40nibb3GAqrbVE1I">
+    <div className="row section container">
+      <div className="center-align">
         <GoogleMap
-          mapContainerStyle={containerStyle}
+          mapContainerStyle={mapContainerStyle}
+          zoom={8}
           center={center}
-          zoom={10}
-          onLoad={onLoad}
-          onUnmount={onUnmount}
-        >
-          {/* Child components, such as markers, info windows, etc. */}
-          <></>
-        </GoogleMap>
-      </LoadScript>
+        ></GoogleMap>
+      </div>
     </div>
   );
 };

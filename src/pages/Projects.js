@@ -4,8 +4,6 @@ const Projects = ({ projects }) => {
   const complete = projects.filter((item) => item.is_complete === true);
   const incomplete = projects.filter((item) => item.is_complete === false);
 
-  console.log(complete);
-  console.log(incomplete);
   return (
     <div className="container">
       <div className="section">
@@ -15,13 +13,13 @@ const Projects = ({ projects }) => {
         <table className="highlight">
           <tbody>
             {incomplete.map((item, index) => (
-              <tr>
+              <tr key={item.id}>
                 <td>{index + 1}</td>
                 <td>{item.project_name}</td>
               </tr>
             ))}
           </tbody>
-        </table>{' '}
+        </table>
       </div>
 
       <div className="section">
@@ -31,7 +29,7 @@ const Projects = ({ projects }) => {
         <table className="highlight">
           <tbody>
             {complete.map((item, index) => (
-              <tr>
+              <tr key={item.id}>
                 <td>{index + 1}</td>
                 <td>{item.project_name}</td>
               </tr>
