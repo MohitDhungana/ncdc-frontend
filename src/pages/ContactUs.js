@@ -1,12 +1,12 @@
 import React from 'react';
-import GoogleMaps from '../components/GoogleMaps';
-import Contacts from '../components/Contacts';
+import Maps from '../components/Maps';
 
 const ContactUs = () => {
   return (
-    <div className="gray-background">
-      <GoogleMaps />
-      {/* <Contacts /> */}
+    <div className="gray-background ">
+      <div className="container map-container">
+        <Maps />
+      </div>
     </div>
   );
 };

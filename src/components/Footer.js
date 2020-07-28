@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = ({ ROUTES }) => {
   return (
-    <footer className="page-footer red darken-1">
+    <footer className="page-footer red darken-2">
       <div className="container">
         <div className="row">
           {/* CONTACT US */}

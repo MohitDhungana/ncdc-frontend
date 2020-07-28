@@ -69,3 +69,9 @@ main {
 .gray-background {
   background-color: #fafafa;
 }
+
+.map-container {
+  margin: 2em auto;
+  height: 70vh;
+  width: 70%;
+}
