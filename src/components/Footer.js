@@ -3,32 +3,43 @@ import { Link } from 'react-router-dom';
 
 const Footer = ({ ROUTES }) => {
   return (
-    <footer className="page-footer">
+    <footer className="page-footer red darken-1">
       <div className="container">
         <div className="row">
+          {/* CONTACT US */}
           <div className="col l6 s12">
-            <h5 className="white-text">Contact US</h5>
-            <p className="grey-text text-lighten-4">
-              Nepal Community Development Center <br />
-              Bhadrapur, Jhapa, <br />
-              Nepal <br />
-              Phone: (+977) 9898989898
-            </p>
+            <h4 className="white-text">Contact Us</h4>
+            <ul className="grey-text text-lighten-4">
+              <li className="icon" style={{ display: 'flex' }}>
+                <i className="valign-wrapper  material-icons">pin_drop</i>
+                <span>Bhadrapur, Jhapa, Nepal</span>
+              </li>
+              <li className="icon" style={{ display: 'flex' }}>
+                <i className="valign-wrapper material-icons">phone</i>
+                <span>9898898898</span>
+              </li>
+              <li className="icon" style={{ display: 'flex' }}>
+                <i className="valign-wrapper material-icons">mail</i>
+                <span>test@test.com</span>
+              </li>
+            </ul>
           </div>
+
+          {/* QUICK LINKS */}
           <div className="col l4 offset-l2 s12">
-            <h5 className="white-text">Quick Links</h5>
+            <h4 className="white-text">Quick Links</h4>
             <ul>
-              <li>
+              <li className="icon">
                 <Link className="grey-text text-lighten-3" to={ROUTES.home}>
                   Home
                 </Link>
               </li>
-              <li>
+              <li className="icon">
                 <Link className="grey-text text-lighten-3" to={ROUTES.aboutUs}>
                   About Us
                 </Link>
               </li>
-              <li>
+              <li className="icon">
                 <Link className="grey-text text-lighten-3" to={ROUTES.projects}>
                   Projects
                 </Link>

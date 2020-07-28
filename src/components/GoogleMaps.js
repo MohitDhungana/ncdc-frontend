@@ -1,10 +1,10 @@
 import React from 'react';
 import { GoogleMap, useLoadScript } from '@react-google-maps/api';
 
-const containerStyle = {
-  width: '400px',
-  height: '400px',
-};
+// const containerStyle = {
+//   width: '400px',
+//   height: '400px',
+// };
 
 const center = {
   lat: 26.560272,

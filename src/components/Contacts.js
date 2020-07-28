@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contacts = () => {
   return (
-    <div className="row  section deep-purple lighten-1 ">
+    <div className="row  section  red   ">
       <div className="container container-padding">
         <div className="col s12 m6 white-text">
           <div className="row valign-wrapper">

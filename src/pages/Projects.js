@@ -10,32 +10,32 @@ const Projects = ({ projects }) => {
         <blockquote className="red-text text-darken-2">
           <h3>Ongoing Projects</h3>
         </blockquote>
-        <table className="highlight">
-          <tbody>
-            {incomplete.map((item, index) => (
-              <tr key={item.id}>
-                <td>{index + 1}</td>
-                <td>{item.project_name}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+
+        {/* <tbody> */}
+        {incomplete.map((item) => (
+          <ul className="browser-default" key={item.id}>
+            {/* <td>{index + 1}</td> */}
+            <li className="browser-default">
+              <span className="font-big">{item.title}</span>: {item.description}
+            </li>
+          </ul>
+        ))}
+        {/* </tbody> */}
       </div>
 
       <div className="section">
         <blockquote className="red-text text-darken-2">
           <h3>Completed Projects</h3>
         </blockquote>
-        <table className="highlight">
-          <tbody>
-            {complete.map((item, index) => (
-              <tr key={item.id}>
-                <td>{index + 1}</td>
-                <td>{item.project_name}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+
+        {complete.map((item, index) => (
+          <ul className="browser-default" key={item.id}>
+            {/* <td>{index + 1}</td> */}
+            <li className="browser-default">
+              <span className="font-big">{item.title}</span>: {item.description}
+            </li>
+          </ul>
+        ))}
       </div>
     </div>
   );

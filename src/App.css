@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Nunito', sans-serif;
+  font-size: 16px;
 }
 
 #root {
@@ -9,6 +10,11 @@ body {
   min-height: 100vh;
   flex-direction: column;
 }
+
+p {
+  font-size: 16px;
+}
+
 main {
   flex: 1 0 auto;
 }
@@ -44,4 +50,14 @@ main {
 
 .no-margin-bot {
   margin-bottom: 0;
+}
+.icon i {
+  margin-right: 8px;
+  font-size: 28px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
 }

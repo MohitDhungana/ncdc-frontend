@@ -10,6 +10,7 @@ const RentalServices = ({ rentals }) => {
 
   const rooms = rentals.filter((item) => item.type === 'rooms');
   const conferences = rentals.filter((item) => item.type === 'conference_room');
+
   // console.log(rooms);
   // console.log(conferences);
   return (
@@ -27,7 +28,7 @@ const RentalServices = ({ rentals }) => {
         {rooms.map((item) => {
           const { url } = item.image;
           return (
-            <div className="col m3 s6 box-margin">
+            <div key={item.id} className="col m3 s6 box-margin">
               <img
                 className="materialboxed"
                 width="100%"
@@ -46,7 +47,7 @@ const RentalServices = ({ rentals }) => {
         {conferences.map((item) => {
           const { url } = item.image;
           return (
-            <div className="col m3 s6 box-margin">
+            <div key={item.id} className="col m3 s6 box-margin">
               <img
                 className="materialboxed"
                 width="100%"

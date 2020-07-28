@@ -6,7 +6,7 @@ const ContactUs = () => {
   return (
     <div className="">
       <GoogleMaps />
-      <Contacts />
+      {/* <Contacts /> */}
     </div>
   );
 };
