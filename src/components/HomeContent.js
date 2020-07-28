@@ -39,9 +39,10 @@ const HomeContent = ({ ROUTES }) => {
             />
           </div>
           <div className="col s12 l6  ">
-            <blockquote className="red-text text-darken-2">
-              <h3>About Us</h3>
+            <blockquote className="red-text text-darken-2 home-title">
+              <h3 className="home-title">About Us</h3>
             </blockquote>
+
             <p>
               Nepal Community Development Center(NCDC) is established in 1991.
               It is also registered in Social Welfare Council. It is recognized
@@ -62,13 +63,10 @@ const HomeContent = ({ ROUTES }) => {
 
         {/* objectives start */}
         <div className="row ">
-          {/* <div className="container container-padding"> */}
-          {/* <div className="col s12 l6 white-text "> */}
           <div className="col s12 l6">
-            <blockquote className="red-text text-darken-2">
-              <h3>Our Objectives</h3>
+            <blockquote className="red-text text-darken-2 home-title">
+              <h3 className="home-title">Our Objectives</h3>
             </blockquote>
-            {/* <h4 className="center-align"></h4> */}
 
             <ul className="">
               <li className="section">
@@ -106,6 +104,7 @@ const HomeContent = ({ ROUTES }) => {
       </div>
       {/* objective end */}
 
+      {/* other services start */}
       <div className="row section">
         <div className="container center-align">
           <div className="row ">
@@ -128,6 +127,7 @@ const HomeContent = ({ ROUTES }) => {
       <div className="container">
         <hr />
       </div>
+
       {/* supporting organizations start */}
       <div
         className="row  center-align container "
@@ -155,8 +155,6 @@ const HomeContent = ({ ROUTES }) => {
         </div>
       </div>
       {/* supporting organizations end */}
-
-      {/* other services start */}
     </>
   );
 };

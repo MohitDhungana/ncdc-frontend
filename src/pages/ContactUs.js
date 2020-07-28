@@ -4,7 +4,7 @@ import Contacts from '../components/Contacts';
 
 const ContactUs = () => {
   return (
-    <div className="">
+    <div className="gray-background">
       <GoogleMaps />
       {/* <Contacts /> */}
     </div>

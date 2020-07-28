@@ -61,3 +61,11 @@ main {
   align-items: center;
   margin-bottom: 8px;
 }
+
+.home-title {
+  margin-top: 0;
+}
+
+.gray-background {
+  background-color: #fafafa;
+}

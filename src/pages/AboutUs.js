@@ -4,9 +4,11 @@ import BoardMembers from '../components/BoardMembers';
 
 const AboutUs = ({ members }) => {
   return (
-    <div className="container">
-      <AboutUsContent />
-      <BoardMembers members={members} />
+    <div className="gray-background">
+      <div className="container">
+        <AboutUsContent />
+        <BoardMembers members={members} />
+      </div>
     </div>
   );
 };
