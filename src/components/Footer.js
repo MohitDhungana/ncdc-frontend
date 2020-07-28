@@ -7,7 +7,7 @@ const Footer = ({ ROUTES }) => {
       <div className="container">
         <div className="row">
           {/* CONTACT US */}
-          <div className="col l6 s12">
+          <div className="col m6 s12">
             <h4 className="white-text">Contact Us</h4>
             <ul className="grey-text text-lighten-4">
               <li className="icon" style={{ display: 'flex' }}>
@@ -26,7 +26,7 @@ const Footer = ({ ROUTES }) => {
           </div>
 
           {/* QUICK LINKS */}
-          <div className="col l4 offset-l2 s12">
+          <div className="col m4 offset-m2  s12">
             <h4 className="white-text">Quick Links</h4>
             <ul>
               <li className="icon">

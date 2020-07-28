@@ -14,7 +14,6 @@ const Projects = ({ projects }) => {
 
           {incomplete.map((item) => (
             <ul className="browser-default" key={item.id}>
-              {/* <td>{index + 1}</td> */}
               <li className="browser-default">
                 <span className="font-big">{item.title}</span>:{' '}
                 {item.description}
@@ -30,7 +29,6 @@ const Projects = ({ projects }) => {
 
           {complete.map((item, index) => (
             <ul className="browser-default" key={item.id}>
-              {/* <td>{index + 1}</td> */}
               <li className="browser-default">
                 <span className="font-big">{item.title}</span>:{' '}
                 {item.description}

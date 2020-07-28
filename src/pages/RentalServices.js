@@ -6,7 +6,7 @@ const ROOT_URL =
 const RentalServices = ({ rentals }) => {
   React.useEffect(() => {
     M.AutoInit();
-  });
+  }, []);
 
   const rooms = rentals.filter((item) => item.type === 'rooms');
   const conferences = rentals.filter((item) => item.type === 'conference_room');

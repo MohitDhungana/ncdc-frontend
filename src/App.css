@@ -75,3 +75,8 @@ main {
   height: 70vh;
   width: 70%;
 }
+
+.organizations {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
