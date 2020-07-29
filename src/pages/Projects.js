@@ -9,7 +9,7 @@ const Projects = ({ projects }) => {
       <div className="container">
         <div className="section">
           <blockquote className="red-text text-darken-2">
-            <h3>Ongoing Projects</h3>
+            <h3>Current Programmes</h3>
           </blockquote>
 
           {incomplete.map((item) => (
@@ -24,10 +24,10 @@ const Projects = ({ projects }) => {
 
         <div className="section">
           <blockquote className="red-text text-darken-2">
-            <h3>Completed Projects</h3>
+            <h3>Past Projects</h3>
           </blockquote>
 
-          {complete.map((item, index) => (
+          {complete.map((item) => (
             <ul className="browser-default" key={item.id}>
               <li className="browser-default">
                 <span className="font-big">{item.title}</span>:{' '}

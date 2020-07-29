@@ -10,7 +10,7 @@ const HomeContent = ({ ROUTES }) => {
   });
   return (
     <>
-      <div className="row">
+      <div className="row" style={{ zIndex: '2' }}>
         <div className="parallax-container">
           <div className="parallax">
             <img className=" hero-img" src={ncdc} alt="ncdc" />
@@ -47,19 +47,31 @@ const HomeContent = ({ ROUTES }) => {
             </blockquote>
 
             <p>
-              Nepal Community Development Center(NCDC) is established in 1991.
-              It is also registered in Social Welfare Council. It is recognized
-              as a leading NGO in Jhapa district of Nepal. The main vision of
-              the organization is to uplift the community members through
-              conducting different community focused programs.
+              Nepal Community Development Center(NCDC) is established in 1991 by
+              late Ram Prasad Dhungana with the purpose of uplifting the life of
+              rural community members through education and other support
+              services. Due to dedicated work of founding Chairman Ram Prasad
+              Dhungana, NCDC expanded it's services throughout the district and
+              developed its institutional base.
             </p>
-            <Link
+            <p>
+              With the generous support from Bhadrapur Municipality, NCDC
+              received land and constructed its facility. Presently NCDC owns
+              over Rs. 30 million worth of property in Bhadrapur with full
+              service training facility and community event service facilities.
+              Details of our facilities are listed under 'Our Services' section.
+            </p>
+            <p>
+              NCDC is registered under Social Welfare Council with registration
+              no. 123456
+            </p>
+            {/* <Link
               to={ROUTES.aboutUs}
               className="waves-effect waves-light btn red lighten-1  hoverable"
             >
               Read More
               <i className="material-icons right">send</i>
-            </Link>
+            </Link> */}
           </div>
         </div>
         {/* about us end */}
@@ -140,38 +152,7 @@ const HomeContent = ({ ROUTES }) => {
 
         {/* other services end */}
 
-        <hr />
-
-        {/* supporting organizations start */}
-        <div className="row  center-align " style={{ marginBottom: '3.5em' }}>
-          <h3 className="">Supporting Organizations</h3>
-          <div className="  ">
-            <div className="col l3 s6 organizations">The Asia Foundation</div>
-            <div className="col l3 s6 organizations">PACT</div>
-            <div className="col l3 s6 organizations">CECI/CIDA</div>
-            <div className="col l3 s6 organizations">UNICEF</div>
-            <div className="col l3 s6 organizations">World Education</div>
-            <div className="col l3 s6 organizations">CVICT/ DFID</div>
-            <div className="col l3 s6 organizations">NGO forum</div>
-            <div className="col l3 s6 organizations">USAID</div>
-            <div className="col l3 s6 organizations">
-              Lutheran World Federation
-            </div>
-            <div className="col l3 s6 organizations">CREHPA</div>
-            <div className="col l3 s6 organizations">AusAID</div>
-            <div className="col l3 s6 organizations">Plannet Enfant</div>
-            <div className="col l3 s6 organizations">
-              NFHP Nepal Family Health Program
-            </div>
-            <div className="col l3 s6 organizations">
-              NYOF Nepalese Youth Opportunity Foundation
-            </div>
-            <div className="col l3 s6 organizations">
-              Local Government of Nepal
-            </div>
-          </div>
-          {/* supporting organizations end */}
-        </div>
+        {/* supporting organizations end */}
       </div>
 
       {/* container end */}

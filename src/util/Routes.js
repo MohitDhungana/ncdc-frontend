@@ -1,5 +1,9 @@
 export const home = '/ncdc-frontend';
-export const aboutUs = '/aboutus';
-export const projects = '/projects';
+// export const aboutUs = '/aboutus';
+export const ourHistory = '/our-history';
+export const founders = '/founders';
+export const boardMembers = '/board-members';
+export const donors = '/donors';
 export const rentalServices = '/rental-services';
+export const projects = '/projects';
 export const contactUs = '/contactus';

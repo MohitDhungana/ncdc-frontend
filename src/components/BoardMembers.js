@@ -6,32 +6,34 @@ const ROOT_URL =
 
 const BoardMembers = ({ members }) => {
   return (
-    <div className="row section">
-      <blockquote className="red-text text-darken-2">
-        <h3>Board Members</h3>
-      </blockquote>
+    <div className="container">
+      <div className="row section">
+        <blockquote className="red-text text-darken-2">
+          <h3>Board Members</h3>
+        </blockquote>
 
-      <div className="flex-container">
-        {members.map((member) => {
-          const { name, designation, id } = member;
-          const { url } = member.image.formats.thumbnail;
+        <div className="flex-container">
+          {members.map((member) => {
+            const { name, designation, id } = member;
+            const { url } = member.image.formats.thumbnail;
 
-          return (
-            <div className="box-container" key={id}>
-              <div className="box-content center-align">
-                <img src={`${ROOT_URL}${url}`} alt="" className="box-img" />
-                <div className="flex">
-                  <div className="flex-item">
-                    <span className="font-big">{name}</span>
-                  </div>
-                  <div className="flex-item">
-                    <span className="">{designation}</span>
+            return (
+              <div className="box-container" key={id}>
+                <div className="box-content center-align">
+                  <img src={`${ROOT_URL}${url}`} alt="" className="box-img" />
+                  <div className="flex">
+                    <div className="flex-item">
+                      <span className="font-big">{name}</span>
+                    </div>
+                    <div className="flex-item">
+                      <span className="">{designation}</span>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </div>
   );

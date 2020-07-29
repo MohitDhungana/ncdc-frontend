@@ -35,7 +35,7 @@ const Footer = ({ ROUTES }) => {
                 </Link>
               </li>
               <li className="icon">
-                <Link className="grey-text text-lighten-3" to={ROUTES.aboutUs}>
+                <Link className="grey-text text-lighten-3" to="#!">
                   About Us
                 </Link>
               </li>

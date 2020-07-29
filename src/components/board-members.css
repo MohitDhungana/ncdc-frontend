@@ -10,8 +10,6 @@
 }
 
 .box-container {
-  /* background-color: #d4d4d4; */
-  /* border: #888888 1px solid; */
   width: 15em;
   flex-direction: column;
   align-items: center;
@@ -20,10 +18,6 @@
   display: flex;
   margin: 10px 15px;
 }
-
-/* .box-container:hover {
-  box-shadow: 0 0 15px #888888;
-} */
 
 .box-content > img {
   width: 12em;
