@@ -16,6 +16,7 @@ import * as ROUTES from './util/Routes';
 
 import axios from 'axios';
 import Spinner from './components/Spinner';
+import ScrollToTop from './util/ScrollToTop';
 
 const ROOT_URL =
   'https://www.master-7rqtwti-i5k2u5rqob5is.us-3.platformsh.site';
@@ -53,6 +54,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       {loading ? (
         <div className="center-align">
           <Spinner />
@@ -78,6 +80,7 @@ function App() {
           <Footer ROUTES={ROUTES} />
         </>
       )}
+      {/* </ScrollToTop> */}
     </Router>
   );
 }
