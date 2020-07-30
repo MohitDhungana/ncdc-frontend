@@ -1,6 +1,8 @@
 import React from 'react';
 import ncdc from '../images/ncdc-front.jpg';
+import ncdcSection from '../images/ncdc.jpg';
 import conference from '../images/conference.jpg';
+import objective from '../images/objective.jpg';
 import { Link } from 'react-router-dom';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
@@ -35,7 +37,8 @@ const HomeContent = ({ ROUTES }) => {
         <div className="row section  ">
           <div className="col s12 l6">
             <img
-              src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+              src={ncdcSection}
+              // src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
               alt="about us"
               className="responsive-img"
             />
@@ -110,7 +113,8 @@ const HomeContent = ({ ROUTES }) => {
 
           <div className="col l6 hide-on-med-and-down  ">
             <img
-              src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+              src={objective}
+              // src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
               alt="mission"
               className="responsive-img"
             />
