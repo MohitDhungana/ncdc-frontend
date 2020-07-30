@@ -3,6 +3,7 @@
 body {
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
+  max-width: 3840px;
 }
 
 #root {
@@ -70,17 +71,16 @@ main {
   background-color: #fafafa;
 }
 
-.map-container {
-  margin: 2em auto;
-  height: 70vh;
-  width: 70%;
-}
-
 .organizations {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
+.map-container {
+  height: 70vh;
+  width: 100%;
+}
 
-.drop-down-color {
-  color: white;
+.li-title {
+  font-size: 1.2em;
+  font-weight: 700;
 }

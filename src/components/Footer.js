@@ -9,17 +9,17 @@ const Footer = ({ ROUTES }) => {
           {/* CONTACT US */}
           <div className="col m6 s12">
             <h4 className="white-text">Contact Us</h4>
-            <ul className="grey-text text-lighten-4">
+            <ul className="">
               <li className="icon" style={{ display: 'flex' }}>
-                <i className="valign-wrapper  material-icons">pin_drop</i>
+                <i className="material-icons">pin_drop</i>
                 <span>Bhadrapur, Jhapa, Nepal</span>
               </li>
               <li className="icon" style={{ display: 'flex' }}>
-                <i className="valign-wrapper material-icons">phone</i>
+                <i className="material-icons">phone</i>
                 <span>9898898898</span>
               </li>
               <li className="icon" style={{ display: 'flex' }}>
-                <i className="valign-wrapper material-icons">mail</i>
+                <i className="material-icons">mail</i>
                 <span>test@test.com</span>
               </li>
             </ul>
