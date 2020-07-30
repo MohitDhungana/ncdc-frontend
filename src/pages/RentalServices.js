@@ -59,29 +59,31 @@ const RentalServices = ({ rentals }) => {
         </div> */}
 
         <div className="row section ">
-          <table>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Item Name</th>
-              </tr>
-            </thead>
+          <div className="col m8 offset-m2 s12 ">
+            <table className="highlight centered">
+              <thead>
+                <tr>
+                  <th>Items</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
 
-            <tbody>
-              <tr>
-                <td>Alvin</td>
-                <td>Eclair</td>
-              </tr>
-              <tr>
-                <td>Alan</td>
-                <td>Jellybean</td>
-              </tr>
-              <tr>
-                <td>Jonathan</td>
-                <td>Lollipop</td>
-              </tr>
-            </tbody>
-          </table>
+              <tbody>
+                <tr>
+                  <td>A/C room</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>Non A/C room</td>
+                  <td>6</td>
+                </tr>
+                <tr>
+                  <td>Conference Hall</td>
+                  <td>2</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
 
         <div className="row section">
